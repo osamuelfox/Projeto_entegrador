@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/azul"
-            android:elevation="3dp"
+            android:elevation="0dp"
             app:title="toolBar"
             app:titleTextColor="@color/white">
 

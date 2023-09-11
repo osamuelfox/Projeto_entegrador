@@ -36,7 +36,6 @@ public class ToolbarCalendarViewActivity extends AppCompatActivity {
 
     private void initializeUI() {
 
-//        setContentView(R.layout.activity_toolbar_calendar_view);
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -67,15 +66,5 @@ public class ToolbarCalendarViewActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_today: {
-                mCalendarView.setSelectedDate(Calendar.getInstance());
-                return true;
-            }
-        }
 
-        return super.onOptionsItemSelected(item);
-    }
 }

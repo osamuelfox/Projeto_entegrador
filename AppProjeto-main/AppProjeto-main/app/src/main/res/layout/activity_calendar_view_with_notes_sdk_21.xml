@@ -5,36 +5,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorPrimary"
+    android:background="@color/white"
     tools:context=".CalendarViewWithNotesActivitySDK21">
+
+
+
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar1"
             android:layout_width="match_parent"
-            android:layout_height="84dp"
-            app:popupTheme="@style/AppTheme.PopupOverlay"
-            app:titleTextAppearance="@style/AppTheme.TitleText"
-            app:subtitleTextAppearance="@style/AppTheme.SubTitleText" />
+            android:layout_height="110dp"
+
+            />
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <LinearLayout
+
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleTextAppearance="@style/AppTheme.TitleText"
+        app:subtitleTextAppearance="@style/AppTheme.SubTitleText"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarMes"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/azul"
+            app:title="toolBar"
+            app:titleTextColor="@color/white">
+
+        </androidx.appcompat.widget.Toolbar>
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/frameLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="10dp">-->
+
+<!--        </FrameLayout>-->
+
+    </LinearLayout>
+
+
     <com.samuel_fox.calendarviewlib.CalendarView
         android:id="@+id/calendarView"
+        style="@style/Conteiner"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:content_background_color="#fff"
-        app:week_header_background_color="#fff"
-        app:week_header_text_color="?attr/colorPrimary"
+        android:layout_height="400dp"
+        app:content_background_color="@color/cinzaClaro"
         app:current_day_circle_enable="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:month_header_show="false"
-        app:week_header_movable="false" />
+        app:week_header_background_color="@color/cinzaClaro"
+        app:week_header_movable="false"
+        app:week_header_text_color="?attr/colorPrimary" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

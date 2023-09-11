@@ -149,18 +149,17 @@ public class CalendarViewWithNotesActivitySDK21 extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_today: {
-                mCalendarView.setSelectedDate(Calendar.getInstance());
-                return true;
-            }
-        }
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.action_today: {
+//                mCalendarView.setSelectedDate(Calendar.getInstance());
+//                return true;
+//            }
+//        }
+//
+//        return super.onOptionsItemSelected(item);
+//    }
 
-        return super.onOptionsItemSelected(item);
-    }
-
-    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == CREATE_EVENT_REQUEST_CODE) {
             if (resultCode == RESULT_OK) {

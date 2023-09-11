@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".view.Mes_Activity">
+    tools:context="com.samuel_fox.calendar.view.Mes_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
