@@ -1,0 +1,31 @@
+package com.samuel_fox.calendar;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+//import android.support.v7.app.AppCompatActivity;
+//import android.support.v7.widget.Toolbar;
+
+public class SimpleCalendarViewActivity extends AppCompatActivity {
+
+    public static Intent makeIntent(Context context) {
+        return new Intent(context, SimpleCalendarViewActivity.class);
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        initializeUI();
+    }
+
+    private void initializeUI() {
+//        setContentView(R.layout.activity_simple_calendar_view);
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+    }
+
+}
