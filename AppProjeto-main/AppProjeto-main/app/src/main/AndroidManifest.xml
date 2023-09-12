@@ -60,7 +60,6 @@
             android:name="com.samuel_fox.calendar.view.UserActivity"
             android:exported="false" />
 
-
         <activity
             android:name="com.samuel_fox.calendar.CalendarViewWithNotesActivitySDK21"
             android:parentActivityName="com.samuel_fox.calendar.MainActivity"

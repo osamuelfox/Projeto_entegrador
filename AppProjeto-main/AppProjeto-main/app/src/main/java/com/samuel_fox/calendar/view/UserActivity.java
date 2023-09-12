@@ -139,12 +139,7 @@ public class UserActivity extends AppCompatActivity {
                     // Se inicia Actividad 2
                     sendIntent = new Intent(UserActivity.this, CalendarViewWithNotesActivitySDK21.class);
                     startActivity(sendIntent);
-                } else if (item.getItemId() == R.id.nav_item_three) {
-                    // Se inicia Actividad 3
-                    sendIntent = new Intent(UserActivity.this, CreateEventActivity.class);
-                    startActivity(sendIntent);
                 }
-
                 // Close the navigation drawer when an item is selected
                 drawerLayout.closeDrawers();
                 return true;

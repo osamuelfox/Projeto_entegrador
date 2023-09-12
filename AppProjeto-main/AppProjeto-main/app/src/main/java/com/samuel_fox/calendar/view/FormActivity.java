@@ -3,16 +3,20 @@ package com.samuel_fox.calendar.view;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 //import android.support.design.widget.Snackbar;
+import android.os.Handler;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -39,6 +43,8 @@ public class FormActivity extends AppCompatActivity {
     private TextView text_telaLogin;
     String[] mensagens = {"Preencha todos os campos", "Cadastro Realizado com sucesso"};
     String usuarioID;
+
+    private ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -87,15 +93,26 @@ public class FormActivity extends AppCompatActivity {
 
                 if (task.isSuccessful()) {
 
+                    progressBar.setVisibility(View.VISIBLE);
                     SalvarDadosUsuario();
 
-                    Snackbar snackbar = Snackbar.make(v, mensagens[1], Snackbar.LENGTH_SHORT);
-                    snackbar.setBackgroundTint(Color.WHITE);
-                    snackbar.setTextColor(Color.BLACK);
-                    snackbar.show();
 
-                    Intent intent = new Intent(FormActivity.this,UserActivity.class);
-                    startActivity(intent);
+                    new Handler().postDelayed(new Runnable() {
+                        @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+                        @Override
+                        public void run() {
+
+                            Snackbar snackbar = Snackbar.make(v, mensagens[1], Snackbar.LENGTH_SHORT);
+                            snackbar.setBackgroundTint(Color.WHITE);
+                            snackbar.setTextColor(Color.BLACK);
+                            snackbar.show();
+
+                            Intent intent = new Intent(FormActivity.this,LoginActivity.class);
+                            startActivity(intent);
+
+                        }
+                    }, 3000);
+
 
 
                 } else {
@@ -173,6 +190,7 @@ public class FormActivity extends AppCompatActivity {
         editSenha = findViewById(R.id.edit_senha);
         text_telaLogin = findViewById(R.id.text_tela_login);
         btProximo = findViewById(R.id.bt_proximo);
+        progressBar = findViewById(R.id.progresseBar1);
 
     }
 }
