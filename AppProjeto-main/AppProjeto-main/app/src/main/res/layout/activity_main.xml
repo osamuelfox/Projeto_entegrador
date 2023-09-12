@@ -6,7 +6,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".view.MainActivity"
     android:orientation="vertical">
 
     <ViewFlipper
@@ -16,8 +16,7 @@
         android:layout_height="wrap_content" >
 
         <include android:id="@+id/include1" layout="@layout/activity_calendar_view_with_notes_sdk_21" />
-        <include android:id="@+id/include2" layout="@layout/activity_create_event" />
-        <include android:id="@+id/include3" layout="@layout/pager_calendar_day" />
+        <include android:id="@+id/include2" layout="@layout/activity_user" />
 
     </ViewFlipper>
 

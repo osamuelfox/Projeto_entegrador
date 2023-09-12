@@ -48,7 +48,7 @@ public class UserActivity extends AppCompatActivity {
 
     private TextView nomeUsuario, emailUsuario;
 
-    Button bt_deslogar;
+    private Button bt_deslogar;
 
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     String usuarioID;
@@ -140,6 +140,7 @@ public class UserActivity extends AppCompatActivity {
                     sendIntent = new Intent(UserActivity.this, CalendarViewWithNotesActivitySDK21.class);
                     startActivity(sendIntent);
                 }
+
                 // Close the navigation drawer when an item is selected
                 drawerLayout.closeDrawers();
                 return true;

@@ -22,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="110dp"
 
+
             />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -43,7 +44,8 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:background="@color/azul"
-            app:title="toolBar"
+            app:title="Agenda"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat"
             app:titleTextColor="@color/white">
 
         </androidx.appcompat.widget.Toolbar>

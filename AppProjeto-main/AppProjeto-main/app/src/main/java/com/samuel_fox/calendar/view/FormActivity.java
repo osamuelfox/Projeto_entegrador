@@ -31,6 +31,7 @@ import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.samuel_fox.calendar.CalendarViewWithNotesActivitySDK21;
 import com.samuel_fox.calendar.R;
 
 import java.util.HashMap;
@@ -107,7 +108,7 @@ public class FormActivity extends AppCompatActivity {
                             snackbar.setTextColor(Color.BLACK);
                             snackbar.show();
 
-                            Intent intent = new Intent(FormActivity.this,LoginActivity.class);
+                            Intent intent = new Intent(FormActivity.this, LoginActivity.class);
                             startActivity(intent);
 
                         }
@@ -182,7 +183,6 @@ public class FormActivity extends AppCompatActivity {
                     }
                 });
     }
-
 
     private void IniciarComponentes() {
         editNome = findViewById(R.id.edit_nome);
