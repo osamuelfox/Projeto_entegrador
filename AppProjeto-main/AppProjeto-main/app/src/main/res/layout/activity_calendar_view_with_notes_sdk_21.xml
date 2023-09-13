@@ -15,13 +15,15 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:theme="@style/AppTheme.AppBarOverlay"
-        app:elevation="0dp">
+        app:elevation="0dp"
+        >
 
         <androidx.appcompat.widget.Toolbar
+            android:layout_marginTop="3dp"
+
             android:id="@+id/toolbar1"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-
 
             />
 
@@ -34,15 +36,18 @@
         app:subtitleTextAppearance="@style/AppTheme.SubTitleText"
 
 
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
         <androidx.appcompat.widget.Toolbar
+
+
             android:id="@+id/toolbarMes"
             android:layout_width="match_parent"
-            android:layout_height="30dp"
+            android:layout_height="25dp"
             android:background="@color/azul"
             app:title="Agenda"
             app:titleTextAppearance="@style/TextAppearance.AppCompat"

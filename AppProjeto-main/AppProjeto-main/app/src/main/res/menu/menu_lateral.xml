@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/toolbar2"
-        android:orderInCategory="100"
+        android:id="@+id/bt_deslo"
+        app:showAsAction="ifRoom"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+       />
+
+
 </menu>

@@ -9,26 +9,26 @@
     tools:context=".view.MainActivity"
     android:orientation="vertical">
 
-    <ViewFlipper
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/vf"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+<!--    <ViewFlipper-->
+<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--        android:id="@+id/vf"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content" >-->
 
-        <include android:id="@+id/include1" layout="@layout/activity_calendar_view_with_notes_sdk_21" />
-        <include android:id="@+id/include2" layout="@layout/activity_user" />
+<!--        <include android:id="@+id/include1" layout="@layout/activity_calendar_view_with_notes_sdk_21" />-->
+<!--        <include android:id="@+id/include2" layout="@layout/activity_user" />-->
 
-    </ViewFlipper>
+<!--    </ViewFlipper>-->
 
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
-        android:layout_marginTop="20dp"
-        app:headerLayout="@layout/cabecera_nv"
-        app:menu="@menu/menu_navegacion"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true" />
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        app:headerLayout="@layout/cabecera_nv"-->
+<!--        app:menu="@menu/menu_navegacion"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:fitsSystemWindows="true" />-->
 
 <!--    <android.support.v7.widget.RecyclerView-->
 <!--        android:id="@+id/rv_options"-->

@@ -54,15 +54,15 @@ public class MainActivity extends AppCompatActivity {
 
         initializeUI();
 
-        toolbar = findViewById(R.id.toolbar1);
+//        toolbar = findViewById(R.id.toolbar1);
 
         // Componente ViewFlipper
-        vf = (ViewFlipper)findViewById(R.id.vf);
-        vf.setDisplayedChild(CONT_ACTIVIDAD);
+//        vf = (ViewFlipper)findViewById(R.id.vf);
+//        vf.setDisplayedChild(CONT_ACTIVIDAD);
 
         // Componente NavigationDrawer
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        nav = (NavigationView) findViewById(R.id.nav_view);
+//        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        nav = (NavigationView) findViewById(R.id.nav_view);
 
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open, R.string.close);
@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
+//        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
 //        RecyclerView rvOptions = findViewById(R.id.rv_options);
