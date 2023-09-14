@@ -179,7 +179,7 @@
                         android:paddingBottom="6.5dp"
                         android:paddingEnd="8dp"
                         android:paddingStart="8dp"
-                        tools:text="tuesday, 27/03   17:00" />
+                        tools:text="Terça, 27/03   17:00" />
 
 
                 </LinearLayout>

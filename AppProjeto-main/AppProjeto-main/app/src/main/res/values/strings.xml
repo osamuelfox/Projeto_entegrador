@@ -2,31 +2,31 @@
     <string name="app_name" translatable="false">CalendarView Sample</string>
     <string name="title_activity_simple_calendar_view" translatable="false">Simple CalendarView</string>
     <string name="title_activity_mini_calendar_view_popup" translatable="false">CalendarView Popup</string>
-    <string name="today">today</string>
-    <string name="cancel">cancel</string>
+    <string name="today">Hoje</string>
+    <string name="cancel">Cancelar</string>
     <string name="ok">ok</string>
-    <string name="new_event">New Event</string>
-    <string name="save">save</string>
-    <string name="title">Title</string>
-    <string name="completed">Completed</string>
-    <string name="set">set</string>
+    <string name="new_event">Novo evento</string>
+    <string name="save">Salvar</string>
+    <string name="title">Titulo</string>
+    <string name="completed">Completo</string>
+    <string name="set">definir</string>
     <string name="double_dots" translatable="false">:</string>
-    <string name="select_color_instruction">Select color of event</string>
-    <string name="event_default_title">My event</string>
-    <string name="no_events">no events</string>
-    <string name="delete">delete</string>
+    <string name="select_color_instruction">Selecione uma cor</string>
+    <string name="event_default_title">Meu evento</string>
+    <string name="no_events">Sem Eventos</string>
+    <string name="delete">Apagar</string>
 
 
 
 
 
-    <string name="item1_nav">Actividad 1</string>
-    <string name="item2_nav">Actividad 2</string>
-    <string name="item3_nav">Actividad 3</string>
-    <string name="titulo_nv">NavigationDrawer con Actividades</string>
+    <string name="item1_nav">Atividade 1</string>
+    <string name="item2_nav">Atividade 2</string>
+    <string name="item3_nav">Atividade 3</string>
+    <string name="titulo_nv">NavigationDrawer com Atividades</string>
 
-    <string name="open">open</string>
-    <string name="close">close</string>
+    <string name="open">Abrir</string>
+    <string name="close">Fechar</string>
 
     <string name="senha">Senha</string>
     <string name="email">E-mail</string>
@@ -54,13 +54,13 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Deslogar</string>
 
-    <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="gerencia">Gerencie aqui a sua rotina</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="fragment">Flagmento</string>
+    <string name="fragment">Fragmento</string>
 
 
 

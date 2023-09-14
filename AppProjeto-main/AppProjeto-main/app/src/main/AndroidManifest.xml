@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name="com.samuel_fox.calendar.view.Splash"
-            android:theme="@style/AppTheme.NoActionBar"
+            android:theme="@style/BarrWhiter"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,12 +56,12 @@
         <activity
             android:name="com.samuel_fox.calendar.view.FormActivity"
             android:exported="false" />
-        <activity
-            android:name="com.samuel_fox.calendar.view.MainActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.samuel_fox.calendar.view.UserActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name="com.samuel_fox.calendar.view.MainActivity"-->
+<!--            android:exported="false" />-->
+<!--        <activity-->
+<!--            android:name="com.samuel_fox.calendar.view.UserActivity"-->
+<!--            android:exported="false" />-->
 
         <activity
             android:name="com.samuel_fox.calendar.CalendarViewWithNotesActivitySDK21"

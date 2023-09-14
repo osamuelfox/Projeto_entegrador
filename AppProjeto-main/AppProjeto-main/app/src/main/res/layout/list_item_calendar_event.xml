@@ -40,7 +40,7 @@
             android:textSize="16sp"
             android:lines="1"
             android:ellipsize="end"
-            tools:text="Exercise Plan" />
+            tools:text="Plano de atividades" />
 
         <TextView
             android:id="@+id/tv_calendar_event_status"

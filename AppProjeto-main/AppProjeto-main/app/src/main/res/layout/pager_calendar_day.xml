@@ -33,10 +33,10 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:textSize="12sp"
-            android:textColor="#9ea9ab"
             android:textAllCaps="true"
-            tools:text="Wednesday"/>
+            android:textColor="#9ea9ab"
+            android:textSize="12sp"
+            tools:text="Terça" />
 
         <View
             android:layout_marginTop="10dp"

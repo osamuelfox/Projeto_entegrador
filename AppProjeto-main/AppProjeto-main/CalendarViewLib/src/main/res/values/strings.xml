@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Calendar View Lib</string>
-    <string name="not_available">not available</string>
-    <string name="previous_month">previous month</string>
-    <string name="next_month">next month</string>
+    <string name="not_available">Não Disponível</string>
+    <string name="previous_month">Mês Anterior</string>
+    <string name="next_month">Próximo Mês</string>
 </resources>

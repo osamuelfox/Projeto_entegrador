@@ -16,9 +16,11 @@
         android:layout_height="80dp"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:elevation="0dp"
+
         >
 
         <androidx.appcompat.widget.Toolbar
+
             android:layout_marginTop="3dp"
 
             android:id="@+id/toolbar1"
@@ -49,6 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:background="@color/azul"
+
             app:title="Agenda"
             app:titleTextAppearance="@style/TextAppearance.AppCompat"
             app:titleTextColor="@color/white">
@@ -78,6 +81,7 @@
         app:week_header_movable="false"
         app:week_header_text_color="?attr/colorPrimary" />
 
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
@@ -87,5 +91,6 @@
         android:tint="#fff"
         app:elevation="0dp"
         app:srcCompat="@android:drawable/ic_input_add" />
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
