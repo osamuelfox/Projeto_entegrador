@@ -8,9 +8,7 @@
     android:background="@color/white"
     tools:context=".CalendarViewWithNotesActivitySDK21">
 
-
-
-
+    
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
@@ -52,7 +50,7 @@
             android:layout_height="26dp"
             android:background="@color/azul"
 
-            app:title="Task Hask"
+            app:title="Task Hive"
             app:titleTextAppearance="@style/TextAppearance.AppCompat"
             app:titleTextColor="@color/white">
 

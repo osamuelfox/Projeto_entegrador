@@ -55,6 +55,7 @@
 <!--            android:exported="false" />-->
         <activity
             android:name="com.samuel_fox.calendar.view.FormActivity"
+            android:theme="@style/BarrWhiter"
             android:exported="false" />
 <!--        <activity-->
 <!--            android:name="com.samuel_fox.calendar.view.MainActivity"-->
@@ -76,7 +77,7 @@
         <activity
             android:name="com.samuel_fox.calendar.view.LoginActivity"
             android:parentActivityName="com.samuel_fox.calendar.MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/BarrWhiter">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
