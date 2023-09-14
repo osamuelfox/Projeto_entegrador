@@ -49,10 +49,10 @@
 
             android:id="@+id/toolbarMes"
             android:layout_width="match_parent"
-            android:layout_height="25dp"
+            android:layout_height="26dp"
             android:background="@color/azul"
 
-            app:title="Agenda"
+            app:title="Task Hask"
             app:titleTextAppearance="@style/TextAppearance.AppCompat"
             app:titleTextColor="@color/white">
 
