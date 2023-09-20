@@ -18,13 +18,11 @@
         >
 
         <androidx.appcompat.widget.Toolbar
-
             android:layout_marginTop="3dp"
 
             android:id="@+id/toolbar1"
             android:layout_width="match_parent"
             android:layout_height="110dp"
-
             />
 
     </com.google.android.material.appbar.AppBarLayout>
@@ -42,18 +40,18 @@
         android:orientation="vertical"
         tools:ignore="MissingConstraints">
 
-        <androidx.appcompat.widget.Toolbar
+<!--        <androidx.appcompat.widget.Toolbar-->
 
-            android:id="@+id/toolbarMes"
-            android:layout_width="match_parent"
-            android:layout_height="26dp"
-            android:background="@color/azul"
+<!--            android:id="@+id/toolbarMes"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="26dp"-->
+<!--            android:background="#A6673AB7"-->
 
-            app:title="Task Hive"
-            app:titleTextAppearance="@style/TextAppearance.AppCompat"
-            app:titleTextColor="@color/white">
+<!--            app:title="Task Hive"-->
+<!--            app:titleTextAppearance="@style/TextAppearance.AppCompat"-->
+<!--            app:titleTextColor="@color/white">-->
 
-        </androidx.appcompat.widget.Toolbar>
+<!--        </androidx.appcompat.widget.Toolbar>-->
 
 <!--        <FrameLayout-->
 <!--            android:id="@+id/frameLayout"-->
@@ -72,7 +70,7 @@
         app:content_background_color="@color/white"
         app:current_day_circle_enable="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:month_header_show="true"
+        app:month_header_show="false"
         app:week_header_background_color="@color/white"
         app:week_header_movable="false"
         app:week_header_text_color="?attr/colorPrimary" />

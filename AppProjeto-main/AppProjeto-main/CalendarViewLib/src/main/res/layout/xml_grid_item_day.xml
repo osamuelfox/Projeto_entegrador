@@ -12,6 +12,8 @@
     android:layout_gravity="center">
 
     <com.samuel_fox.calendarviewlib.helpers.SelectedTextView
+
+
         android:id="@+id/tv_calendar_day"
         android:layout_width="30dp"
         android:layout_height="30dp"

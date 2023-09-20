@@ -194,6 +194,17 @@
                         style="@style/createEventToolbarItems"
                         android:text="@string/save" />
 
+
+<!--                    <androidx.cardview.widget.CardView-->
+<!--                        android:id="@+id/cardView_app_color"-->
+<!--                        android:layout_width="18dp"-->
+<!--                        android:layout_height="18dp"-->
+<!--                        android:layout_margin="8.5dp"-->
+<!--                        android:src="@drawable/ic_title"-->
+<!--                        app:cardBackgroundColor="?attr/colorPrimary"-->
+<!--                        app:cardCornerRadius="2dp" />-->
+
+
                 </LinearLayout>
 
                 <View style="@style/createEventSeparator" />
@@ -201,9 +212,16 @@
 
             </LinearLayout>
 
+
+
+
+
         </androidx.core.widget.NestedScrollView>
 
     </LinearLayout>
+
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

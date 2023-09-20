@@ -7,6 +7,9 @@
     android:layout_height="match_parent">
 
     <include
+
+
+
         android:id="@+id/day_item_1_1"
         layout="@layout/xml_grid_item_day"
         android:layout_width="0dp"
@@ -100,6 +103,8 @@
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
     <include
+
+
         android:id="@+id/day_item_2_1"
         layout="@layout/xml_grid_item_day"
         android:layout_width="0dp"
@@ -197,6 +202,7 @@
         layout="@layout/xml_grid_item_day"
         android:layout_width="0dp"
         android:layout_height="0dp"
+
 
         app:layout_constraintBottom_toTopOf="@+id/day_item_4_1"
         app:layout_constraintEnd_toStartOf="@+id/day_item_3_2"

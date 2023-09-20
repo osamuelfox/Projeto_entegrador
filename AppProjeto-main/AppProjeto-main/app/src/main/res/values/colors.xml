@@ -19,7 +19,9 @@
 
     <color name="red">#CD1E1E</color>
 
-    <color name="azul">#67A6F0</color>
+<!--    <color name="azul">#67A6F0</color>-->
+<!--    <color name="azul">#A6673AB7</color>-->
+    <color name="azul">#009688</color>
     <color name="cinza">#8F8F8F</color>
     <color name="cinzaClaro">#E8E8E8</color>
 
