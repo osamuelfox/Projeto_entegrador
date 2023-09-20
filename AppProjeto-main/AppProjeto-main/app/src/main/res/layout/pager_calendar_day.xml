@@ -73,9 +73,7 @@
                     android:textColor="#a5a5a5"
                     android:textSize="16sp"
                     android:text="@string/no_events"/>
-
             </LinearLayout>
-
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_calendar_events"

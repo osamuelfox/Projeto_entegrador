@@ -44,7 +44,6 @@
 
         <androidx.appcompat.widget.Toolbar
 
-
             android:id="@+id/toolbarMes"
             android:layout_width="match_parent"
             android:layout_height="26dp"
@@ -65,20 +64,18 @@
 
     </LinearLayout>
 
-
     <com.samuel_fox.calendarviewlib.CalendarView
         android:id="@+id/calendarView"
         style="@style/Conteiner"
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        app:content_background_color="@color/cinzaClaro"
+        android:layout_height="match_parent"
+        app:content_background_color="@color/white"
         app:current_day_circle_enable="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        app:month_header_show="false"
-        app:week_header_background_color="@color/cinzaClaro"
+        app:month_header_show="true"
+        app:week_header_background_color="@color/white"
         app:week_header_movable="false"
         app:week_header_text_color="?attr/colorPrimary" />
-
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
@@ -89,6 +86,5 @@
         android:tint="#fff"
         app:elevation="0dp"
         app:srcCompat="@android:drawable/ic_input_add" />
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
